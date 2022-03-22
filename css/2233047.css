@@ -47,9 +47,27 @@ mark {
     text-align: center;
 }
 /*동아리 팀원*/
-
+.group table {
+    border: none;
+}
+.group table td {
+    height: 50px;
+    width: 100px;
+    border: 3px solid blue;
+    text-align: center;
+}
+.group table tr:nth-child(2n-1) {
+    background-color: pink;
+}
 /*링크 이동*/
-
+.hyperlink li a:hover {
+    background-color: white;
+    color: pink;
+    text-decoration: underline;
+}
+.hyperlink li a {
+    text-decoration: none;
+}
 /*소사캠퍼스*/
 .school img{
     width: auto;
