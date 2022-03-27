@@ -48,9 +48,11 @@ mark {
 }
 /*동아리 팀원*/
 .group table {
-    border: none;
+    border: 3px solid blue;
+    border-collapse: collapse;
 }
-.group table td {
+
+.group table td{
     height: 50px;
     width: 100px;
     border: 3px solid blue;
